@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box ;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.caixa{
+    height: 100vh;
+    width: 100vw;
+}
+.primeiro__container{
+    display: inline-block;
+   width: 60%;
+   padding-left: 136px;
+   margin-top: 20%;
+    }
+.segundo__container{
+display: inline-block;
+background-color: rgba(93,93,125,0.16);
+height:100vh;
+width: 40%;
+position: absolute;
+
+}
+.imagem{
+   position:relative;
+   top: 25%;
+   right: 130px; 
+}
+.texto__inicial{
+ font-size: 70px;
+line-height: 80px;
+width: 368px;
+height: 160px;
+color: #5D5D7D;
+}
+p{
+font-size: 28px;
+line-height: 48px;
+color: #5D5D7D;
+mix-blend-mode: normal;
+opacity: 0.6;
+width: 540px;
+height: 144px;
+margin: 15px 0;
+}
+.botao{
+ width: 269px;
+height: 62px;
+background: #9499EA;
+box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+border-radius: 20px;
+border: none;
+cursor:pointer;
+}
+.botao:hover{
+    opacity: 0.8;
+
+}
+.botao:active{
+    opacity: .05;
+}
+a{ 
+font-size: 28px;
+line-height: 41px;
+color: #5D5D7D;
+margin-right: 41px;
+cursor:pointer;
+
+}
+a:nth-last-child(3){
+font-size: 28px;
+line-height: 41px;
+color: #5D5D7D;
+mix-blend-mode: normal;
+opacity: 0.4;
+}
+header{
+    margin:24px 0 0 57px;
+}
+@media screen and (max-width:900px){
+
+
+    .texto__inicial{
+       font-size: 36px;
+       margin:58px 50px 0 50px;
+        line-height: 52px;
+        text-align: center;
+        color: #5D5D7D;
+       width: auto;
+    }
+
+    header{
+        display: none;
+    }
+    p{
+        font-size: 14px;
+       line-height: 24px;
+       text-align: center;
+       color: #5D5D7D;
+       mix-blend-mode: normal;
+       opacity: 0.6;
+       width: auto;  
+       display: block;
+       margin: 15px 40px;
+
+    }
+  .botao{
+margin: 0 auto;
+display:block;
+width: 269px;
+bottom: 56.9%;
+  }
+ 
+
+ .segundo__container{
+    width: 100%;
+    display: block;
+    height: auto;
+    position: static;
+    padding: 40px;
+    
+   
+ 
+}
+.primeiro__container{
+ width: 100%;
+ height: 50%;
+ padding: 0;
+ margin: 0;
+ display: block;
+   }
+   .imagem{
+    position:static;
+    width: 90%;
+   }
+
+    }
